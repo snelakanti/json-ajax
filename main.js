@@ -13,5 +13,6 @@ btn.addEventListener("click", function(){
 
 
 function renderHTML(rData){
-animalContainer.insertAdjacentHTML('beforeend', 'testing')
+    var htmlstring = "this is a test"
+animalContainer.insertAdjacentHTML('beforeend', htmlstring)
 }
